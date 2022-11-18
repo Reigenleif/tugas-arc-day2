@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  color: white;
+  background: #111111;
+  height: 4em;
+  justify-content: space-between;
+  padding: 0.7em;
+}
+
+.navbar .title {
+  font-size: 2em;
+}
+
+.navbar .buttons {
+  width: 18em;
+}
+
+.buttons .btn-reset {
+  font-size: 1.5em;
+  color: white;
+  background: salmon;
+}
+
+.buttons .btn-rename {
+  font-size: 1.5em;
+  color: white;
+  background: #0000ff;
+}
+
+.buttons .btn-lightdark {
+  font-size: 1.5em;
+  color: white;
+  background: black;
+}
+
+.menu {
+  flex-direction: column;
+  margin: auto;
+  margin-top: 17vh;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: min(30em, 30vw);
+  background: black;
+}
+
+.menu .btn-start {
+  background: #20cc20;
+  color: white;
+  margin: 0.7em 0;
+  height: 2em;
+  width: 50%;
+}
+
+
+
+.game {
+    flex-direction: column;
+}
+
+.game .notif {
+  font-size: 1.5em;
+  height: 2em;
+  text-align: center;
+  width: min(80%,50em);
+  border: 1px solid #111111;
+  border-radius: 10px;
+  margin-top: 0.3em;
+  background: rgba(0,200,0,0.1);
+}
+
+.game .bet-ui {
+  width: min(40%,20em);
+  margin-top: 1em;
+}
+
+.rps-ui {
+  font-size: 5em;
+  width: 70%;
+  margin: auto;
+  margin-top: 0.5em;
+}
+
+.rps-info {
+  width: 80%;
+  font-size: 2em;
+  justify-content: space-around;
+}
+
+.score {
+  width: min(90%,10em);
+  font-size: 1.5em;
+  padding: 0.4em;
+  border: 1px solid black;
+  margin: "0.4em 0"
+}
+
+.rps-play {
+  width: 80%;
+  padding: 1em;
+  font-size: 1.5em;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.2);
+  margin-top: 1em
+}
+
+.rps-play .btn-rock {
+  background: red;
+  color: white;
+  font-size: inherit;
+}
+
+.rps-play .btn-paper {
+  background: yellow;
+  color: black;
+  font-size: inherit;
+}
+
+.rps-play .btn-scrissor {
+  background: blue;
+  color: white;
+  font-size: inherit;
+}
